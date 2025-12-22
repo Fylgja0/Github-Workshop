@@ -217,6 +217,84 @@ git pull origin main
 git pull</code></pre>
                 </div>
 
+                <h3>7. git log</h3>
+                <p>Commit geçmişini gösterir - projenin hikayesini okuyun:</p>
+                <div class="code-block">
+                    <div class="code-header"><span>Terminal</span><button class="copy-btn" onclick="copyCode(this)"><i
+                                class="far fa-copy"></i></button></div>
+                    <pre><code class="language-bash"># Son commit'leri görüntüle
+git log
+
+# Tek satırda özet görünüm
+git log --oneline
+
+# Grafik görünüm (branch'ları görselleştir)
+git log --oneline --graph --all
+
+# Son 5 commit
+git log -5
+
+# Örnek çıktı (--oneline):
+# a1b2c3d feat: login sayfası eklendi
+# e4f5g6h fix: navbar hatası düzeltildi
+# i7j8k9l docs: README güncellendi</code></pre>
+                </div>
+
+                <div class="callout callout-info">
+                    <i class="fas fa-external-link-alt"></i>
+                    <div>
+                        <strong>Gerçek Örnek:</strong>
+                        <a href="https://github.com/facebook/react/commits/main" target="_blank">React'ın commit geçmişi
+                            →</a> |
+                        <a href="https://github.com/microsoft/vscode/commits/main" target="_blank">VS Code commit
+                            geçmişi →</a>
+                    </div>
+                </div>
+
+                <h3>8. git diff</h3>
+                <p>Dosyalardaki değişiklikleri satır satır gösterir:</p>
+                <div class="code-block">
+                    <div class="code-header"><span>Terminal</span><button class="copy-btn" onclick="copyCode(this)"><i
+                                class="far fa-copy"></i></button></div>
+                    <pre><code class="language-bash"># Henüz staged olmayan değişiklikleri gör
+git diff
+
+# Staged değişiklikleri gör
+git diff --staged
+
+# İki commit arasındaki fark
+git diff abc123..def456
+
+# Örnek çıktı:
+# - eski satır (kaldırıldı, kırmızı)
+# + yeni satır (eklendi, yeşil)</code></pre>
+                </div>
+
+                <div class="callout callout-success">
+                    <i class="fas fa-link"></i>
+                    <div>
+                        <strong>GitHub'da Diff Görünümü:</strong><br>
+                        <a href="https://github.com/Furk4nBulut/Github-Workshop/commit/main" target="_blank">📎 Örnek
+                            commit diff →</a> |
+                        <a href="https://github.com/facebook/react/pull/28000/files" target="_blank">📎 Örnek PR diff
+                            →</a>
+                    </div>
+                </div>
+
+                <h3>📊 Git Workflow Diyagramı</h3>
+                <div class="callout callout-warning">
+                    <i class="fas fa-project-diagram"></i>
+                    <div>
+                        <strong>Görsel Öğrenme:</strong><br>
+                        <a href="https://ndpsoftware.com/git-cheatsheet.html" target="_blank">🎨 İnteraktif Git
+                            Cheatsheet →</a><br>
+                        <a href="https://learngitbranching.js.org/?locale=tr_TR" target="_blank">🎮 Learn Git Branching
+                            (Oyun) →</a><br>
+                        <a href="https://marklodato.github.io/visual-git-guide/index-en.html" target="_blank">📈 Visual
+                            Git Guide →</a>
+                    </div>
+                </div>
+
                 <h2 id="markdown">📝 Markdown</h2>
 
                 <p>Markdown, README dosyaları ve dokümantasyon için kullanılan hafif bir işaretleme dilidir.</p>
