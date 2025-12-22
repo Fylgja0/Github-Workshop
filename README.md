@@ -611,7 +611,7 @@ Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır.
 ```
 MIT License
 
-Copyright (c) 2024 Furkan Bulut
+Copyright (c) 2025 Furkan Bulut
 
 Bu yazılımın ve ilgili dokümantasyon dosyalarının bir kopyasını 
 edinen herkese, kısıtlama olmaksızın yazılımı kullanma, kopyalama, 
